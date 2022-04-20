@@ -1,57 +1,39 @@
 {
-    "colors": [
-      {
-        "color": "black",
-        "category": "hue",
-        "type": "primary",
-        "code": {
-          "rgba": [255,255,255,1],
-          "hex": "#000"
-        }
-      },
-      {
-        "color": "white",
-        "category": "value",
-        "code": {
-          "rgba": [0,0,0,1],
-          "hex": "#FFF"
-        }
-      },
-      {
-        "color": "red",
-        "category": "hue",
-        "type": "primary",
-        "code": {
-          "rgba": [255,0,0,1],
-          "hex": "#FF0"
-        }
-      },
-      {
-        "color": "blue",
-        "category": "hue",
-        "type": "primary",
-        "code": {
-          "rgba": [0,0,255,1],
-          "hex": "#00F"
-        }
-      },
-      {
-        "color": "yellow",
-        "category": "hue",
-        "type": "primary",
-        "code": {
-          "rgba": [255,255,0,1],
-          "hex": "#FF0"
-        }
-      },
-      {
-        "color": "green",
-        "category": "hue",
-        "type": "secondary",
-        "code": {
-          "rgba": [0,255,0,1],
-          "hex": "#0F0"
-        }
-      }
-    ]
-  }
+  "products" : [
+    {"id":1, "name":"Blue shirt", "category":2, "brand":2},
+    {"id":2, "name":"Summer skirt", "category":1, "brand":9},
+    {"id":3, "name":"Red Dress", "category":1, "brand":10},
+    {"id":4, "name":"Sports shoes", "category":2, "brand":6},
+    {"id":5, "name":"Coke", "category":3, "brand":5},
+    {"id":6, "name":"cellphone", "category":4, "brand":4},
+    {"id":7, "name":"Green bag", "category":5, "brand":3},
+    {"id":8, "name":"Yellow shoes", "category":2, "brand":1},
+    {"id":9, "name":"Pearl Necklace", "category":5, "brand":9},
+    {"id":10, "name":"Slipper", "category":1, "brand":7},
+    {"id":11, "name":"Cap", "category":5, "brand":8}
+  ],
+  "orders": [
+    {"id":1, "product":[1,4,9,11], "total":150},
+    {"id":2, "product":[2,3], "total":88},
+    {"id":3, "product":[7,10], "total":180}
+  ],
+  "category" :[
+    {"id":1, "name":"women clothing"},
+    {"id":2, "name":"men clothing"},
+    {"id":3, "name":"food"},
+    {"id":4, "name":"electronics"},
+    {"id":5, "name":"accessories"}
+  ],
+  "brands" :[
+    {"id":1, "name":"Nike"},
+    {"id":2, "name":"Adidas"},
+    {"id":3, "name":"Fendi"},
+    {"id":4, "name":"Apple"},
+    {"id":5, "name":"Pepsi"},
+    {"id":6, "name":"Skechers"},
+    {"id":7, "name":"UGG"},
+    {"id":8, "name":"Uniqlo"},
+    {"id":9, "name":"Shein"},
+    {"id":10, "name":"Zara"}
+  ]
+}
